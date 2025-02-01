@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: "http://localhost:5173", // Allow frontend URL
+    origin: "https://beyondchat-frontend.vercel.app", // Allow frontend URL
     credentials: true, // Allow cookies & sessions
   })
 );
